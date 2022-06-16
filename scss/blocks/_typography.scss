@@ -1,0 +1,45 @@
+.title-first {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #343439;
+
+    @include tablet {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 43px;
+    }
+}
+
+.title-second
+ {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 43px;
+    color: #161516;
+
+    @include tablet {
+        font-size: 26px;
+        line-height: 35px;
+    }
+}
+
+.title-third {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 33px;
+    color: #161516;
+
+	@include tablet {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 27px;
+	}
+}
+
+.title-first, .title-second, .title-third {
+    span {
+        color: #57A41B; 
+    }
+}
