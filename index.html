@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
-	<title>Document</title>
+	<title>Title-text</title>
+	<meta name="description" content="Description-text">
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"
@@ -18,8 +19,8 @@
 		<div class="header-pc">
 			<img src="icons/header-logo.svg" alt="Инсташпион" class="header-pc__logo">
 			<div class="header-pc__nav">
-				<a href="#" class="nav-item">Возможности</a>
-				<a href="#" class="nav-item">Блогеры о нас</a>
+				<a href="#features" class="nav-item">Возможности</a>
+				<a href="#recommend" class="nav-item">За кем смотреть</a>
 			</div>
 			<div class="header-pc__btns">
 				<a href="#" class="button button_ghost">попробовать бесплатно</a>
@@ -29,8 +30,8 @@
 		<div class="header-mobile">
 			<img src="icons/logo-footer-mini.svg" alt="Инсташпион" class="header-mobile__logo">
 			<div class="header-mobile__btns">
-				<a href="#" class="button button_ghost">попробовать бесплатно</a>
-				<a href="#" class="button button_ghost-icon"><img src="icons/user.svg" alt="In"></a>
+				<a href="https://instashpion.ru/auth/signup?redirect=/instashpion/dashboard" class="button button_ghost">попробовать бесплатно</a>
+				<a href="https://instashpion.ru/auth/instashpion-login" class="button button_ghost-icon"><img src="icons/user.svg" alt="In"></a>
 			</div>
 		</div>
 	</header>
@@ -73,7 +74,7 @@
 		</div>
 	</section>
 
-	<section class="features container">
+	<section class="features container" id="features">
 		<h2 class="title-second">Возможности <span>ИнстаШпиона</span></h2>
 		<div class="features-grid-wrapper">
 			<!-- 1-ая карточка -->
@@ -380,7 +381,7 @@
 		</div>
 	</section>
 
-	<section class="recommend container">
+	<section class="recommend container" id="recommend">
 		<h2 class="title-second">За кем <span>рекомендуем</span> следить</h2>
 		<div class="recommend-card-wrapper">
 			<!-- 1-ая карточка -->
@@ -721,8 +722,8 @@
           </p>
         </div>
         <div class="footer-pc__copywrite">
-          <a href="#">Политика конфиденциальности</a>
-          <p>Адрес:<br>Пресненская наб., 12, БЦ Москва, 123317<br><br>© 2022 ИнстаШпиона. Все права защищены.
+          <a href="https://instashpion.ru/privacy.pdf" target="_blank">Политика конфиденциальности</a>
+          <p>Адрес:<br>Пресненская наб., 12, БЦ Москва, 123317<br><br>© 2022 ИнстаШпион. Все права защищены.
           </p>
         </div>
       </div>
@@ -730,7 +731,7 @@
         <div class="footer-mobile__contacts">
           <img src="icons/header-logo.svg" alt="InstaShpion">
           <a href="tel:+74994441320">+7 (499) 444-13-20</a>
-          <a href="#">Политика конфиденциальности</a>
+          <a href="https://instashpion.ru/privacy.pdf" target="_blank">Политика конфиденциальности</a>
           <p>
             Адрес:<br>Пресненская наб., 12, БЦ Москва, 123317
           </p>
