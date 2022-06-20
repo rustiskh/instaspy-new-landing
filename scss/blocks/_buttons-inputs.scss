@@ -10,6 +10,11 @@
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: none;
+    }
 
     &_ghost-icon {
         display: flex;
