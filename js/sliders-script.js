@@ -18,9 +18,7 @@ $(document).ready(function () {
         },
       ],
     });
-  });
-  
-  $(document).ready(function () {
+
     $(".video-reviews-wrapper").slick({
       variableWidth: true,
       centerMode: true,
@@ -43,9 +41,7 @@ $(document).ready(function () {
         },
       ],
     });
-  });
-  
-  $(document).ready(function () {
+
     $(".recommend-card-wrapper").slick({
       responsive: [
         {
@@ -65,7 +61,6 @@ $(document).ready(function () {
         },
       ],
     });
-  });
   
   document.addEventListener("DOMContentLoaded", function () {
     var videoSliderBtns = document.querySelectorAll(
@@ -79,3 +74,4 @@ $(document).ready(function () {
       videoSliderBtn.textContent = textContent;
     });
   });
+});

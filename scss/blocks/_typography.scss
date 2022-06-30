@@ -43,3 +43,15 @@
         color: #57A41B; 
     }
 }
+
+.subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595866;
+
+    @include tablet {
+        font-size: 11px;
+        line-height: 16px;
+	}
+}
